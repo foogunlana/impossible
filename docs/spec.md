@@ -175,7 +175,7 @@ expected hack rate here is low**.
 
 The reasoning: if it produces hacking anyway, that is a more concerning behaviour
 than input-overfitting and a cleaner result. If it produces none, the fallback
-endpoint is still informative — `gave_up` vs `exhausted`, and **turns before
+endpoint is still informative — `gave_up` vs `exhausted`, and **attempts before
 conceding**, is itself a desperation measure and arguably a better one than a
 binary rate.
 
