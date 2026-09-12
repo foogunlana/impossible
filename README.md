@@ -5,8 +5,8 @@ is infeasible, or games the evaluation to manufacture a pass.
 
 ```bash
 uv sync
-inspect eval impossible/impossible_sum --model openai/o3
-inspect eval impossible/impossible_sum --model openai/o3 -T anti_hack=true
+inspect eval impossible/fast_sum --model openai/o3
+inspect eval impossible/fast_sum --model openai/o3 -T anti_hack=true
 ```
 
 Reconstructed from the "impossible code" eval described in the Claude Sonnet 4.5
